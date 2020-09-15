@@ -1,0 +1,26 @@
+{
+    "name": "painter",
+    "version": "0.0.1",
+    "main": "dist/painter.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "^7.10.4",
+        "@rollup/plugin-babel": "^5.2.0",
+        "@rollup/plugin-commonjs": "^15.0.0",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "rollup": "^2.26.11",
+        "rollup-plugin-terser": "^7.0.2",
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "xstream": "^11.13.0"
+    },
+    "author": "",
+    "repository": "empty",
+    "license": "BSD",
+    "readme": "README"
+}
